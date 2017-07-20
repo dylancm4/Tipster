@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var tipAmountLabel: UILabel!
+    @IBOutlet weak var totalAmountLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func onTap(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
+    @IBAction func calculateTip(_ sender: UITextField) {
+    }
 }
 
