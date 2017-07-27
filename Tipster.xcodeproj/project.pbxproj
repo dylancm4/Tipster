@@ -12,6 +12,8 @@
 		5D68A1A21F1DAB8F00552A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D68A1A01F1DAB8F00552A52 /* Main.storyboard */; };
 		5D68A1A41F1DAB8F00552A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D68A1A31F1DAB8F00552A52 /* Assets.xcassets */; };
 		5D68A1A71F1DAB8F00552A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D68A1A51F1DAB8F00552A52 /* LaunchScreen.storyboard */; };
+		FC936F651F29915600DE97E3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936F641F29915600DE97E3 /* SettingsViewController.swift */; };
+		FC936F671F2993F300DE97E3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936F661F2993F300DE97E3 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5D68A1A31F1DAB8F00552A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D68A1A61F1DAB8F00552A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D68A1A81F1DAB8F00552A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC936F641F29915600DE97E3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FC936F661F2993F300DE97E3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				5D68A19C1F1DAB8F00552A52 /* AppDelegate.swift */,
 				5D68A19E1F1DAB8F00552A52 /* ViewController.swift */,
 				5D68A1A01F1DAB8F00552A52 /* Main.storyboard */,
+				FC936F641F29915600DE97E3 /* SettingsViewController.swift */,
 				5D68A1A31F1DAB8F00552A52 /* Assets.xcassets */,
 				5D68A1A51F1DAB8F00552A52 /* LaunchScreen.storyboard */,
 				5D68A1A81F1DAB8F00552A52 /* Info.plist */,
+				FC936F661F2993F300DE97E3 /* Settings.swift */,
 			);
 			path = Tipster;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				5D68A19F1F1DAB8F00552A52 /* ViewController.swift in Sources */,
 				5D68A19D1F1DAB8F00552A52 /* AppDelegate.swift in Sources */,
+				FC936F671F2993F300DE97E3 /* Settings.swift in Sources */,
+				FC936F651F29915600DE97E3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				5D68A1AD1F1DAB8F00552A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
