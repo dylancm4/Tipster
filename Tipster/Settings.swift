@@ -9,12 +9,11 @@
 import Foundation
 
 class Settings {
-        
+    
     func Save() {
         
         UserDefaults.standard.set(tipPercentage, forKey: tipPercentageKey)
         UserDefaults.standard.synchronize()
-        Settings.shared.Save()
     }
     
     func Load() {
